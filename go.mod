@@ -1,4 +1,4 @@
-module github.com/gocache
+module github.com/paopaol/gocache
 
 go 1.13
 

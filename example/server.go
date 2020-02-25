@@ -1,9 +1,9 @@
 package main
 
-import "github.com/gocache"
-
+import "github.com/paopaol/gocache"
 
 func main() {
-	server := gocache.NewRestServer()
-	server.Run(":9997")
+	// server := gocache.NewRestServer()
+	server := gocache.NewTcpBnfServer()
+	server.Run(":12346")
 }
